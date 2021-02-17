@@ -156,7 +156,7 @@ class Game {
       textSize(50);
       for(var plr in allp){
           if(allp[plr].place === 1){
-              text("1st: " + allp[plr].name, 0, 85);
+              text("1st: " + allp[plr].name, displayWidth/40, 85);
           }else if(allp[plr].place === 2){
               text("2nd: " + allp[plr].name, displayWidth/4, displayHeight/9 + 73);
           }else if(allp[plr].place === 3){
